@@ -1,0 +1,20 @@
+/* Just some details */
+.UrlBar-AddressField {
+    border-color: var(--colorBorder);
+    background-color: var(--colorBgIntenser);
+}
+
+/* Better dropdown settings */
+.OmniDropdown {
+    border-radius: var(--radius);
+    border: solid 2px var(--colorHighlightBg);
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    box-shadow: none;
+}
+
+.panel-group {
+    border-left: solid 1px var(--colorBorder);
+    margin-left: -1px;
+}

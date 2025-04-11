@@ -1,0 +1,84 @@
+/* Readjusting the position of the default buttons */
+#browser .window-buttongroup {
+    margin-right: 0.15rem;
+    gap: 0.45rem;      
+}
+
+/* Button's background circle */
+#browser .window-buttongroup button {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+/* 
+The window control buttons for Mint-Y were found: 
+/usr/share/icons/Mint-Y/actions/symbolic 
+/usr/share/icons/Adwaita/scalable/ui (Close Button)
+*/
+
+/* Minimize Button */
+.window-minimize svg {
+    overflow: visible;
+}
+.window-minimize svg path {
+    d: path("M4 10v1h8v-1z");
+    transform: translate(-5px, -3px);
+}
+button.window-minimize {
+    background-color: transparent !important;
+}
+button.window-minimize:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+button.window-minimize:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Restore Button */
+.window-maximize svg g.window-restore-glyph path:nth-child(2) {
+    d: path("m 3,5 v 8 h 8 V 5 Z m 1,1 h 6 v 6 H 4 Z");
+    transform: translate(-5px, -3px);
+}
+.window-maximize svg g.window-restore-glyph path:nth-child(1) {
+    d: path("m 5,3 v 1 h 7 v 7 h 1 V 3 Z");
+    opacity: 0.5;
+    transform: translate(-5px, -3px);
+}
+
+/* Maximize Button */
+.window-maximize svg {
+    overflow: visible
+}
+.window-maximize svg g.window-maximize-glyph path {
+    d: path("M4 4v8h8V4zm1 1h6v6H5z");
+    transform: translate(-5px, -3px);
+}
+button.window-maximize {
+    background-color: transparent !important;
+}
+button.window-maximize:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+button.window-maximize:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Close Button */
+.window-close svg {
+    overflow: visible;
+}
+.window-close svg path {
+    d: path("m 4 4 h 1 h 0.03125 c 0.253906 0.011719 0.511719 0.128906 0.6875 0.3125 l 2.28125 2.28125 l 2.3125 -2.28125 c 0.265625 -0.230469 0.445312 -0.304688 0.6875 -0.3125 h 1 v 1 c 0 0.285156 -0.035156 0.550781 -0.25 0.75 l -2.28125 2.28125 l 2.25 2.25 c 0.1875 0.1875 0.28125 0.453125 0.28125 0.71875 v 1 h -1 c -0.265625 0 -0.53125 -0.09375 -0.71875 -0.28125 l -2.28125 -2.28125 l -2.28125 2.28125 c -0.1875 0.1875 -0.453125 0.28125 -0.71875 0.28125 h -1 v -1 c 0 -0.265625 0.09375 -0.53125 0.28125 -0.71875 l 2.28125 -2.25 l -2.28125 -2.28125 c -0.210938 -0.195312 -0.304688 -0.46875 -0.28125 -0.75 z m 0 0");
+    transform: translate(-5px, -3px);
+    color: white;
+}
+button.window-close {
+    background-color: #0099dd !important;
+}
+button.window-close:hover {
+    background-color: #00a4e2 !important;
+}
+button.window-close:active {
+    background-color: #0089c7 !important;
+}
