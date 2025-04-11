@@ -35,6 +35,10 @@ button.window-minimize:hover {
 button.window-minimize:active {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
+/* When window is not active */
+#browser.isblurred.dim-blurred .window-minimize svg path {
+    color: #a8a8a8;
+}
 
 /* Restore Button */
 .window-maximize svg g.window-restore-glyph path:nth-child(2) {
@@ -64,6 +68,10 @@ button.window-maximize:hover {
 button.window-maximize:active {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
+/* When window is not active */
+#browser.isblurred.dim-blurred .window-maximize svg g.window-maximize-glyph path {
+    color: #a8a8a8;
+}
 
 /* Close Button */
 .window-close svg {
@@ -82,4 +90,11 @@ button.window-close:hover {
 }
 button.window-close:active {
     background-color: #0089c7 !important;
+}
+/* When window is not active */
+#browser.isblurred.dim-blurred button.window-close {
+    background-color: #a8a8a8 !important;
+}
+#browser.isblurred.dim-blurred button.window-close:hover {
+    background-color: #00a4e2 !important;
 }

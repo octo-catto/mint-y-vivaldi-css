@@ -19,10 +19,10 @@ Here's a comparison:
 [custom-mint-y-not-maximized]: https://github.com/octo-catto/super-simple-mint-y-vivaldi-css/blob/main/sample_screenshots/custom-mint-y-not-maximized.png
 [default-vivaldi-maximized]: https://github.com/octo-catto/super-simple-mint-y-vivaldi-css/blob/main/sample_screenshots/default-vivaldi-maximized.png
 [default-vivaldi-not-maximized]: https://github.com/octo-catto/super-simple-mint-y-vivaldi-css/blob/main/sample_screenshots/default-vivaldi-not-maximized.png
-[custom-mint-y-vertical-tabs]: https://github.com/octo-catto/super-simple-mint-y-vivaldi-css/blob/main/sample_screenshots/custom-mint-y-vertical-tabs.png
+[sample-comparison-gif]: https://github.com/octo-catto/super-simple-mint-y-vivaldi-css/blob/main/sample_screenshots/sample-comparison.gif
 
-It also works when you enable vertical tabs:
-![custom-mint-y-vertical-tabs]
+Here's a comparison with the window control buttons of the settings app in Linux Mint:
+![sample-comparison-gif]
 
 ## How does it work?
 
