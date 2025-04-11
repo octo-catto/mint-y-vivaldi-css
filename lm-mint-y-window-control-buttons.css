@@ -50,6 +50,13 @@ button.window-minimize:active {
     opacity: 0.5;
     transform: translate(-5px, -3px);
 }
+/* When window is not active */
+#browser.isblurred.dim-blurred .window-maximize svg g.window-restore-glyph path:nth-child(2) {
+    color: #a8a8a8;
+}
+#browser.isblurred.dim-blurred .window-maximize svg g.window-restore-glyph path:nth-child(1) {
+    color: #a8a8a8;
+}
 
 /* Maximize Button */
 .window-maximize svg {
